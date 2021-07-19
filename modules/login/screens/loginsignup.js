@@ -96,8 +96,8 @@ export const SignupTab = () => {
       <View style={{ marginVertical: 10, marginHorizontal: 15 }}>
         <TextInputField
           keyboardType="email-address"
-          label="Email address"
-          placeholder="Email address"
+          label="Email Address"
+          placeholder="Email Address"
           onChangeText={(value) => setEmail(value)}
           value={email}
           error={validationError.email}
