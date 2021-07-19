@@ -51,6 +51,11 @@ This react_native application was built with Crowdbotics www.crowdbotics.com
     ├── README.md
     └── ...
 
+## Modules (THIS SECTION IS AUTO-GENERATED, PLEASE DO NOT EDIT)
+
+This section will show any installed modules you add from the Storyboard Modules section.
+- [react-native-login](modules/login)
+
 # Getting started: Frontend
 
 This section outlines instructions on setting up a local development environment for the frontend of your application.
