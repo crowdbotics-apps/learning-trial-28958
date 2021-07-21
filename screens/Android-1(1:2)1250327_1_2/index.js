@@ -38,11 +38,11 @@ export class Blank extends React.Component {
         }
       />
       <View style={styles.View_1_5}>
-        <Text style={styles.Text_1_5}>Push Button</Text>
+        <Text style={styles.Text_1_5}>Push This Button Gently</Text>
       </View>
       <View style={styles.View_1_6} />
       <View style={styles.View_1_7}>
-        <Text style={styles.Text_1_7}>Text Entry</Text>
+        <Text style={styles.Text_1_7}>Push This Button Harder</Text>
       </View>
     </ScrollView>
   )
