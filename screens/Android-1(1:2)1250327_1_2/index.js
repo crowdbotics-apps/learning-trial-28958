@@ -61,7 +61,7 @@ const styles = StyleSheet.create({
     position: "absolute",
     left: wp("18.61111111111111%"),
     top: hp("66.71875%"),
-    backgroundColor: "rgba(240, 13, 13, 1)"
+    backgroundColor: "rgba(240, 115, 90, 1)"
   },
   View_1_5: {
     width: wp("43.888888888888886%"),
