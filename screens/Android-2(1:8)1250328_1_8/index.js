@@ -19,6 +19,8 @@ import {
   heightPercentageToDP as hp
 } from "react-native-responsive-screen"
 import { getNavigationScreen } from "@modules"
+import { Picker } from '@react-native-picker/picker';
+
 export class Blank extends React.Component {
   constructor(props) {
     super(props)
@@ -46,6 +48,32 @@ export class Blank extends React.Component {
     </ScrollView>
   )
 }
+const App = () => {
+  const [currency, setCurrency] = useState('US Dollar');
+  return (
+    <View >
+      <Text > Demo Form </Text>
+      <View>
+        <TextInput 
+          placeholder="Email" />
+        <TextInput
+          secureTextEntry={true}
+          placeholder="Password"
+        />
+        <Picker
+          selectedValue={currency}
+          onValueChange={currentCurrency => setCurrency(currentCurrency)}>
+          <Picker.Item label="USD" value="US Dollars" />
+          <Picker.Item label="EUR" value="Euro" />
+          <Picker.Item label="NGN" value="Naira" />
+        </Picker>
+        <Text>
+          Selected: {currency}
+        </Text>
+      </View>
+    </View>
+  );
+};
 
 const styles = StyleSheet.create({
   ScrollView_1: { backgroundColor: "rgba(255, 255, 255, 1)" },
